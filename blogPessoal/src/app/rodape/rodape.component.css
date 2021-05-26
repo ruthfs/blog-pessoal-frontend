@@ -1,0 +1,24 @@
+ul.s-network{
+    list-style: none;
+    padding: 0;
+}
+
+ul.s-network li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.fa {
+    font-size: 25pt;
+    color: white;
+    padding: 10px;
+}
+
+.fa-linkedin-square:hover {
+    color: #0072b1;
+}
+
+.fa-github-square:hover{
+    color: gray;
+}
