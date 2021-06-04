@@ -11,7 +11,7 @@ ul.s-network li {
 
 .fa {
     font-size: 25pt;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
 }
 
@@ -20,5 +20,5 @@ ul.s-network li {
 }
 
 .fa-github-square:hover{
-    color: gray;
+    color: rgb(0, 0, 0);
 }
