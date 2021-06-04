@@ -1,82 +1,45 @@
 <div class="container-fluid fonte">
 
-    <div class="container-fluid p-0">
-        <div class="row w-100">
-          <div class="col">
-      <video autoplay loop muted id="myVideo">
-        <source src="../../assets/video/Blaxploitation.mp4" type="video/mp4">
-      </video>
-      <!-- Optional: some overlay text to describe the video -->
-      <div class="content">
-           </div>
-         </div>
+  <div class="container-fluid p-0">
+    <div class="row w-100">
+      <div class="col">
+        <video autoplay loop muted id="myVideo">
+          <source src="../../assets/video/Blaxploitation.mp4" type="video/mp4">
+        </video>
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
         </div>
       </div>
-
-  <!--   <div class="row d-flex align-items-center">
-        <div class="col-md-12">
-
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6">
-                    <div class="card align-items-center">
-                    <h1 class="text-center mb-3">Entrar</h1>
-
-                    <div class="form-group">
-                        <label for="usuario">Usuario</label>
-                        <input [(ngModel)]='userLogin.usuario' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuario">
-                    </div>
-                
-                    <div class="form-group">
-                        <label for="usuario">Senha</label>
-                        <input [(ngModel)]='userLogin.senha' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
-                    </div> -->
-
-                   <!--  <div class="d-flex justify-content-center"> 
-                        <button type="submit" class="btn btn-success" (click)='entrar()'>Entrar</button>
-                    </div>
-
-                    <hr class="mt-5 mb-5">
-                    
-                    <p class="text-center">Não tem uma conta ? <a routerLink='/cadastrar'>Cadastre-se</a>
-                    </p> -->
+    </div>
+  </div>
 
 
-                    <div class='container'>
-                        <div class='card'>
-                          <h1> Entrar </h1>
-                          
-                          
-                          
-                          <div class='label-float form-group'>
-                            <input [(ngModel)]='userLogin.usuario' class="form-control" type='text' id='usuario' paceholder='' required>
-                            <label id='userLabel' for='usuario'>Usuario</label>
-                          </div>
-                          
-                          <div class='label-float'>
-                            <input  [(ngModel)]='userLogin.senha' class="form-control" type='password' id='senha' paceholder='' required>
-                            <label id='senhaLabel' for='senha'>Senha</label>
-                          </div>
+  <div class='container fonte'>
+    <div class='card'>
+      <h1> Entrar </h1>
 
-                          <div class="d-flex justify-content-center mt-3 mb-3"> 
-                            <button type="submit" class="btn btn-light" (click)='entrar()'>Entrar</button>
-                        </div>
-    
-                        <hr>
-                        
-                        <p class="text-center text-light">Primeira vez aqui ? <a class="text-warning" routerLink='/cadastrar'>Cadastre-se</a>
-                        </p>
 
-                </div>
-             </div>
-            </div>
-             <!-- 
-            </div>
-        </div>
 
-        
+      <div class='label-float form-group'>
+        <input [(ngModel)]='userLogin.usuario' class="form-control" type='text' id='usuario' paceholder='' required>
+        <label id='userLabel' for='usuario'>Usuario</label>
+      </div>
 
-        </div>
-    
-    </div>  -->
- 
+      <div class='label-float'>
+        <input [(ngModel)]='userLogin.senha' class="form-control" type='password' id='senha' paceholder='' required>
+        <label id='senhaLabel' for='senha'>Senha</label>
+      </div>
 
+      <div class="d-flex justify-content-center mt-3 mb-3">
+        <button type="submit" class="btn btn-light" (click)='entrar()'>Entrar</button>
+      </div>
+
+      <hr>
+
+      <p class="text-center text-light">Primeira vez aqui ? <a class="text-warning"
+          routerLink='/cadastrar'>Cadastre-se</a>
+      </p>
+
+    </div>
+  </div>
+</div>

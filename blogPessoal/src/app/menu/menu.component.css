@@ -2,6 +2,10 @@
     font-size: 16pt;
 }
 
+.fs-22{
+    font-size: 30px;
+}
+
 a {
     cursor: pointer;
 }
