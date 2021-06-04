@@ -11,3 +11,16 @@ html {
 .fs-18 {
     font-size: 18pt;
 }
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+.fonte {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 20px;
+}
