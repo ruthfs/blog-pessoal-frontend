@@ -33,6 +33,7 @@ export class CadastrarComponent implements OnInit {
   }
 
   cadastrar(){
+    console.log(this.user)
     this.user.tipo = this.tipoUsuario
 
     if (this.user.senha != this.confirmarSenha){
